@@ -74,8 +74,8 @@ st.markdown("""
 st.title("🌿 粉葛问答系统")
 
 # ========== 配置区 ==========
-DB_URL = 'mysql+pymysql://root:3694@localhost:3306/fgdb?charset=utf8mb4'
-ZHIPU_API_KEY = "45bb029a31e9419eac86a107efd620e1.W5JPJv6ZTWSxRdFb"
+DB_URL = st.secrets["database"]["url"]
+ZHIPU_API_KEY = st.secrets["zhipu_api_key"]
 
 client = OpenAI(
     api_key=ZHIPU_API_KEY,
