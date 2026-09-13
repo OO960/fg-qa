@@ -74,13 +74,13 @@ st.markdown("""
 st.markdown("""
     <style>
     .custom-title h1 {
-        font-size: 36px !important;    /* 第一行字号 */
+        font-size: 45px !important;    /* 第一行字号 */
         margin-bottom: 0px !important;
         text-align: left;              /* 靠左对齐 */
     }
     .custom-title h2 {
-        font-size: 32px !important;    /* 第二行字号 */
-        margin-top: -12px !important;
+        font-size: 40px !important;    /* 第二行字号 */
+        margin-top: -18px !important;
         text-align: left;              /* 靠左对齐 */
     }
     </style>
