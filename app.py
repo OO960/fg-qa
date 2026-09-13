@@ -71,7 +71,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-st.title("   智葛助农：   竹山粉葛知识问答系统🌿")
+st.title("🌿智葛助农：\n竹山粉葛知识问答系统")
 
 # ========== 配置区 ==========
 DB_URL = st.secrets["database"]["url"]
