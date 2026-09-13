@@ -79,8 +79,8 @@ st.markdown("""
         text-align: left;              /* 靠左对齐 */
     }
     .custom-title h2 {
-        font-size: 30px !important;    /* 第二行字号 */
-        margin-top: 0px !important;
+        font-size: 32px !important;    /* 第二行字号 */
+        margin-top: -12px !important;
         text-align: left;              /* 靠左对齐 */
     }
     </style>
