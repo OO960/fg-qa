@@ -72,7 +72,7 @@ st.markdown("""
 
 
 st.title("智葛助农:")
-st.title("竹山粉葛知识问答系统")
+st.title("竹山粉葛知识问答")
 
 # ========== 配置区 ==========
 DB_URL = st.secrets["database"]["url"]
