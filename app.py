@@ -74,18 +74,18 @@ st.markdown("""
 st.markdown("""
     <style>
     .custom-title h1 {
-        font-size: 28px !important;   /* 第一行字号 */
-        margin-bottom: 0px !important; /* 减少下方间距 */
-        text-align: center;
+        font-size: 36px !important;    /* 第一行字号 */
+        margin-bottom: 0px !important;
+        text-align: left;              /* 靠左对齐 */
     }
     .custom-title h2 {
-        font-size: 20px !important;   /* 第二行字号调小，防止换行 */
-        margin-top: 0px !important;    /* 减少上方间距 */
-        text-align: center;
+        font-size: 30px !important;    /* 第二行字号 */
+        margin-top: 0px !important;
+        text-align: left;              /* 靠左对齐 */
     }
     </style>
     <div class="custom-title">
-        <h1>🌿 智葛助农：</h1>
+        <h1>智葛助农：</h1>
         <h2>竹山粉葛知识问答系统</h2>
     </div>
 """, unsafe_allow_html=True)
