@@ -80,7 +80,7 @@ st.markdown("""
     }
     .custom-title h2 {
         font-size: 40px !important;    /* 第二行字号 */
-        margin-top: -18px !important;
+        margin-top: -24px !important;
         text-align: left;              /* 靠左对齐 */
     }
     </style>
