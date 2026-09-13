@@ -71,7 +71,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-st.title("🌿智葛助农")
+st.title("智葛助农:")
 st.title("竹山粉葛知识问答系统")
 
 # ========== 配置区 ==========
