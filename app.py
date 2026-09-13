@@ -86,7 +86,7 @@ st.markdown("""
     </style>
     <div class="custom-title">
         <h1>智葛助农：</h1>
-        <h2>竹山粉葛知识问答系统</h2>
+        <h2>竹山粉葛知识问答</h2>
     </div>
 """, unsafe_allow_html=True)
 
